@@ -12,7 +12,7 @@ import com.example.todolistwithsharedpreference.Data.Task
 
 
 class TaskAdaptor(
-    private val tasks: MutableList<Task> ,
+    private val tasks: MutableList<Task>,
     private val listener: TaskClickListener
 ) : RecyclerView.Adapter<TaskAdaptor.TaskViewHolder>() {
 
